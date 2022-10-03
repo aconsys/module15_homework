@@ -1,0 +1,32 @@
+.wrap,
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrap {
+      font-size: 10px;
+      height: 100vh;
+    }
+
+    .btn {
+      padding: 5px 20px;
+      background-color: #0000ff;
+      border: none;
+      border-radius: 5px;
+      transition: 0.2s;
+    }
+    .btn__text {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #fff;
+    }
+
+    .btn__icon {
+      color: #fff;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }

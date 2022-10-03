@@ -1,0 +1,14 @@
+.btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 30px;
+      background-color: #0000ff95;
+      border: none;
+      color: #ffffff;
+    }
+
+    .btn:hover {
+      background-color: #0000FF;
+    }
